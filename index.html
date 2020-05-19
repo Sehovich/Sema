@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>SM-Art Media</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css2.css">
+	<link rel="icon" type="image/x-icon" href="logo.png">
+
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="swiper.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+ 
+</head>
+<body>
+	
+	
+	<section class="header">
+		<div class="nav" id="nav">
+		<div class="content-box">
+			<div class="menu">
+			
+				
+				<nav>
+
+					<ul>
+						<li><a href="#nav">Pocetna</a></li>
+						<li><a href="#about">O Nama</a></li>
+						<li><a href="#usluge">Usluge</a></li>
+						<li><a href="#galerija">Galerija</a></li>
+						<li><a href="#lokacija">Lokacija</a></li>
+						<li><a href="#kontakt">Kontakt</a></li>
+
+					</ul>
+
+
+
+
+
+				</nav>
+		</div>
+	</div>
+	</section>
+	<section>
+		<img src="granica.png">
+
+
+	</section>
+
+
+<div class="about-section" id="about">
+        <div class="inner-container">
+            <h1>O Nama</h1>
+            <p class="text">
+                Firma SM-Art Media d.o.o. Fojnica osnovana je početkom 2018. godine kao agencija za promociju (reklamu i propagandu). U početku primarna i jedina djelatnost bila je iznajmljivanje i postavljanje (lijepljenje) bilboard pozicija. Međutim uz naporan i prije svega kvalitetan rad s našim klijentima, uz njihovu podršku proširili smo naše usluge, te Vam nudimo sve potrebno za promociju Vaše djelatnosti, roba i usluga. Obzirom da smo novi na tržištu ponosni smo na mnogo uspješno urađenih projekata otkako smo u svijetu marketinga. Uspjeh gradimo na idealnom omjeru cijene i kvaliteta.
+                Sjedište firme je u Fojnici, sa adresom Šćitovo polje 149.
+            </p>
+           
+        </div>
+    </div>
+
+
+
+	</section> 
+	<section class="service" id="usluge">
+		<div class="content-box">
+			<h1>Nase Usluge</h1>
+			<div class="row services">
+				<div class="col-md-3 text-center">
+					<div class="icon">
+						<i class="fa fa-paint-brush" aria-hidden="true"></i>
+			</div>
+			<h3>Design <span></span></h3>
+			<p>Vizualizaciju vaše firme (djelatnosti) i njene promocije povjerite nama. Nudimo dizajn plakata, bilboarda, letaka, brošura ili kataloga i sl.</p>
+		</div>
+
+		<div class="col-md-3 text-center">
+					<div class="icon">
+						<i class="fa fa-print" aria-hidden="true"></i>
+			</div>
+			<h3>Štampa <span></span></h3>
+			<p>Štampa letaka, plakata (mali formati ili XXL formati), izrada podsjetnica, bonova, kartica, banera i sl.</p>
+		</div>
+
+		<div class="col-md-3 text-center">
+					<div class="icon">
+						<i class="fa fa-truck" aria-hidden="true"></i>
+			</div>
+			<h3>Rent Auto Korpe <span></span></h3>
+			<p>Lijepljenje portala i drugih površina  - folije
+Uređenje enterijera - izrada i postavljanje tapeta
+Lijepljenje bilboarda - papir/folija
+Svijetleće reklame</p>
+		</div>
+
+		<div class="col-md-3 text-center">
+					<div class="icon">
+						<i class="fa fa-picture-o" aria-hidden="true"></i>
+			</div>
+			<h3>Oslikavanje<span></span></h3>
+			<p>Lijepljenje portala i drugih površina  - folije
+Uređenje enterijera - izrada i postavljanje tapeta
+Lijepljenje bilboarda - papir/folija
+Svijetleće reklame</p>
+		</div>
+
+	</div>
+		</div>
+	</section>
+
+	<section>
+		 <div class="slider">
+
+    <div id="img">
+      <img src="slika3.jpg">
+    </div>
+
+  </div>
+
+  <script>
+
+    var images = ['slika3.jpg', 'slika5.jpg', 'slika6.jpg',];
+
+    var x = 0;
+
+    var imgs = document.getElementById('img');
+
+    setInterval(slider, 2000);
+
+
+    function slider() {
+
+      if (x < images.length) {
+        x = x + 1;
+      } else {
+        x = 1;
+      }
+
+
+      imgs.innerHTML = "<img src=" + images[x - 1] + ">";
+
+
+    }
+
+
+  </script>
+  <style>
+  	
+
+  	.slider {
+      width: 90%;
+      height: 500px;
+      margin: 20px auto;
+      box-sizing: border-box;
+      overflow: hidden;
+      box-shadow: 5px 5px 10px grey;
+
+    }
+
+    .slider img {
+      width: 100%;
+      height: 100%;
+      animation: ani 8s linear;
+
+    }
+
+    @keyframes ani {
+      0% {
+        transform: scale(1.2);
+      }
+      10% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+  </style>
+
+
+
+		
+
+
+
+
+
+
+</section>
+
+
+
+
+<section class="feature" id="galerija">
+	
+	<h1>Galerija</h1></div>
+		<div class="content-box">
+
+			<div class="galleryContainer">
+    <div class="slideShowContainer">
+        <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+        <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+        <div class="captionTextHolder"><p class="captionText slideTextFromTop"></p></div>
+        <div class="imageHolder">
+            <img src="images/img_1.jpg">
+            <p class="captionText">Alaupovka,pravac prema Fojnici</p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/img_2.jpg">
+            <p class="captionText">Fojnica, izlaz iz grada - šetalište</p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/img_3.jpg">
+            <p class="captionText">Fojnica, ulaz u grad - šetalište</p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/img_4.jpg">
+            <p class="captionText">Ostružnica, 3km od grada Fojnica pravac prema Fojnici</p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/slika5.jpg">
+            <p class="captionText">Ostružnica, 3km od grada Fojnica pravac prema Kiseljaku</p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/slika6.jpg">
+            <p class="captionText">Alaupovka, pravac prema Kiseljaku</p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/slika7.jpg">
+            <p class="captionText">Šćitovo polje, pravac prema Fojnici</p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/slika8.jpg">
+            <p class="captionText">Šćitovo polje, pravac prema Kiseljaku</p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/slika9.jpg">
+            <p class="captionText">Fojničko raskršće, magistralni put, pravac prema Busovači</p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/slika10.jpg">
+            <p class="captionText">Fojničko raskršće, magistralni put, pravac prema Kiseljaku</p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/slika11.jpg">
+            <p class="captionText">Kiseljak, magistralni put, pravac prema Busovači</p>
+        </div>
+         <div class="imageHolder">
+            <img src="images/slika12.jpg">
+            <p class="captionText">Busovača, izlaz iz grada</p>
+        </div>
+         <div class="imageHolder">
+            <img src="images/slika13.jpg">
+            <p class="captionText">Busovača, ulaz u grad</p>
+        </div>
+         <div class="imageHolder">
+            <img src="images/slika14.jpg">
+            <p class="captionText">Kaćuni, pravac prema Kiseljaku</p>
+        </div>
+         <div class="imageHolder">
+            <img src="images/slika15.jpg">
+            <p class="captionText">Kaćuni, pravac prema Busovači</p>
+        </div>
+    </div>
+    <div id="smallSlidesContainer"></div>
+</div>
+<script src="myScript.js"></script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+<section>
+	<h1>Nasa Lokacija</h1></div>
+		<div class="content-box" id="lokacija">
+			
+				
+				
+						<div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5742.400993405908!2d17.990766571796442!3d43.97590308633297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475f3c6095152051%3A0x2552c4fa4da2b306!2zUG9samUgxaDEh2l0b3Zv!5e0!3m2!1sbs!2sba!4v1589801803390!5m2!1sbs!2sba" width="1400" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div><h10><small>Postovani,mapa nije precizan prikaz nase lokacije,za sve dodatne informacije kontaktirajte nas</small></h10>
+						
+
+							
+							
+
+
+
+						</div>
+						
+
+
+	
+
+
+
+
+
+
+</section>
+
+
+	
+		
+	
+
+
+
+
+
+
+
+</section>
+
+	<section class="footer">
+		
+<div class="content-box" id="kontakt">
+	<div class="container">
+		<h1>Kontaktirajte Nas</h1>
+		<div class="row">
+			<div class="col-md-6">
+				<form class="contact-form" action="mailto:sehovic.armin@gmail.com">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Ime i Prezime">
+					</div>
+					<div class="form-group">
+						<input type="number" class="form-control" placeholder="Telefon">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" placeholder="Email">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" rows="4" placeholder="Poruka za vlasnika">
+						</textarea>
+					</div>
+					<button type="submit" href="mailto:sehovic.armin@gmail.com" class="btn btn-primary">Posalji Poruku</button>
+				</form>
+			</div>
+			<div class="col-md-6 contact-info">
+			<div class="follow">
+				<i class="fa fa-map-marker"></i><span>Šćitovo polje 149,Fojnica</span>
+		</div>
+		<div class="follow">
+				<i class="fa fa-phone"></i><span>Broj Telefona</span>
+		</div>
+		<div class="follow">
+				<i class="fa fa-envelope-o"></i><span>sm-artmedia@hotmail.com</span></div>
+				<div class="follow">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-youtube-play"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-instagram"></i>
+		</div>
+	</div>
+</div>
+<hr><p class="copyright">2020 © All rights reserved by SehovicWebDev
+</p></hr>
+</div>
+
+	</div>
+</div>
+	</section>
+	
+	</div>
+</script>
+
+
+
+</body>
+</html>
